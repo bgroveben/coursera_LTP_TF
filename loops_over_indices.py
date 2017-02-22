@@ -12,10 +12,6 @@ def shift_left(L):
         L[i - 1] = L[i]
     L[-1] = first_item
 
-sev = [7]
-shift_left(sev)
-print(sev) 
-
 
 def count_adjacent_repeats(s):
     """ (str) -> int
